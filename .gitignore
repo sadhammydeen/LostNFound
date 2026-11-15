@@ -1,0 +1,20 @@
+# PHP
+*.log
+*.cache
+
+# Sensitive files - DO NOT COMMIT
+includes/db.php
+test_db.php
+
+# Uploads (user-generated content)
+uploads/*
+!uploads/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
